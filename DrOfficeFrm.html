@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Patient Form</title>
+</head>
+
+<body>
+    <h1><u>New Patient Registeration Form</u></h1>
+    <form id="Registeration">
+        <div>
+            <label>First Name</label><br>
+            <input type="text" id="fname" value="">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label><br>
+            <input typy="text" id="lname" value="">
+        </div>
+        <br>
+        <div>
+            <label>Gender</label><br>
+            <input type="radio" id="gender" name="gender" value="M">Male
+            <input type="radio" id="gender" name="gender" value="M">Female
+        </div>
+        <br>
+        <div>            
+            <label>Date Of Birth</label><br>
+            <input type="text" id="dob" placeholder="mm/dd/yyyy" value="">
+        </div>
+        <br>
+        <div>            
+            <label>Home Phone</label><br>
+            <input type="text" id="homephone" placeholder="(111)1111111" value="">
+        </div>
+        <br>
+        <div>            
+            <label>Mobile Phone</label><br>
+            <input type="text" id="mobilephone" placeholder="(111)1111111" value="">
+        </div>
+        <br>
+        <div>            
+            <label>Appointment Date </label><br>
+            <input type="text" id="appointmentdate" placeholder="mm/dd/yyyy" value="">
+        </div>
+        <br>
+        <div>            
+            <label>Appointment Time </label><br>
+            <input type="text" id="appointmenttime" placeholder="hh:mm " value="">
+            <input type="radio" id="time" name="time" value="AM">A.M
+            <input type="radio" id="time" name="time" value="PM">P.M
+        </div>
+        <br><br>
+        <div>
+            <label>Preferred Doctor</label><br>
+            <br>
+            <table>
+                <thead>
+                    <th>Dr.Name</th>
+                    <th>Speciality</th>
+                    <th>Select</th>
+
+                </thead>
+                <tbody>
+                    <tr><td>Dr.John Smith&nbsp;&nbsp;</td>
+                        <td>Family Medicine&nbsp;&nbsp&nbsp;</td>
+                        <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
+                    </tr>
+                    <tr><td>Dr.Cindy Ross&nbsp;&nbsp;</td>
+                        <td>Internal Medicine&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
+                    </tr>
+                    <tr><td>Dr.Jane Doe&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;Ob Gyn&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
+                    </tr>
+                    <tr><td>Dr.AndyJones &nbsp;&nbsp;</td>
+                        <td>Family Medicine&nbsp;&nbsp;</td>
+                        <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
+                    </tr>
+                    <tr><td>Dr.Sara Lee &nbsp;&nbsp;</td>
+                        <td>Internal Medicine&nbsp;&nbsp;</td>
+                        <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <br>
+        <div>
+            <label>Reason For Visit</label><br>
+            <textarea name="reason" id="reason" cols="100" rows="5"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <button name="submit">Register</button>
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>
