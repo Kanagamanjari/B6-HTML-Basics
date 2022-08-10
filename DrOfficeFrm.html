@@ -6,56 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Patient Form</title>
+    <link rel="stylesheet" href="css/customstyles.css">
 </head>
 
 <body>
-    <h1><u>New Patient Registeration Form</u></h1>
     <form id="Registeration">
+        <img height="300" width="800" src="https://media.istockphoto.com/id/1303278663/photo/modern-building-facade-with-hospital-word-signage.webp?s=612x612&w=is&k=20&c=Gc_wNTLjpQfScL1KSC84Zz935Vntkx71kTBjNTVoC2o="/>
+        <h1><u>New Patient Registeration Form</u></h1>
         <div>
-            <label>First Name</label><br>
-            <input type="text" id="fname" value="">
+            <label>First Name</label>
+            <input type="text" id="fname" size="75" value="">
         </div>
         <br>
         <div>
-            <label>Last Name</label><br>
-            <input typy="text" id="lname" value="">
+            <label>Last Name</label>
+            <input type="text" id="lname" size="75" value="">
         </div>
         <br>
         <div>
-            <label>Gender</label><br>
+            <label>Gender&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="radio" id="gender" name="gender" value="M">Male
             <input type="radio" id="gender" name="gender" value="M">Female
         </div>
         <br>
         <div>            
-            <label>Date Of Birth</label><br>
+            <label class="myclass">Date Of Birth</label>
             <input type="text" id="dob" placeholder="mm/dd/yyyy" value="">
         </div>
         <br>
         <div>            
-            <label>Home Phone</label><br>
+            <label>Home Phone</label>
             <input type="text" id="homephone" placeholder="(111)1111111" value="">
         </div>
         <br>
         <div>            
-            <label>Mobile Phone</label><br>
+            <label>Mobile Phone</label>
             <input type="text" id="mobilephone" placeholder="(111)1111111" value="">
         </div>
         <br>
         <div>            
-            <label>Appointment Date </label><br>
+            <label>Appointment Date </label>
             <input type="text" id="appointmentdate" placeholder="mm/dd/yyyy" value="">
         </div>
         <br>
         <div>            
-            <label>Appointment Time </label><br>
+            <label>Appointment Time </label>
             <input type="text" id="appointmenttime" placeholder="hh:mm " value="">
             <input type="radio" id="time" name="time" value="AM">A.M
             <input type="radio" id="time" name="time" value="PM">P.M
         </div>
-        <br><br>
+        <br>
         <div>
-            <label>Preferred Doctor</label><br>
+            <label>Preferred Doctor</label>
+            
             <br>
             <table>
                 <thead>
@@ -74,7 +77,7 @@
                         <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
                     </tr>
                     <tr><td>Dr.Jane Doe&nbsp;&nbsp;</td>
-                        <td>&nbsp;&nbsp;Ob Gyn&nbsp;&nbsp;&nbsp;</td>
+                        <td>Ob Gyn&nbsp;&nbsp;&nbsp;</td>
                         <td>&nbsp;<input type="radio" id="doctorname" name="doctorname" value="DrJohnSmith"></td>
                     </tr>
                     <tr><td>Dr.AndyJones &nbsp;&nbsp;</td>
